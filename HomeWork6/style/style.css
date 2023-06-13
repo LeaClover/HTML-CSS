@@ -1,0 +1,250 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 800px);
+	padding-right: calc(50% - 800px);
+}
+
+.header {
+    background-color: #222;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 859px;
+    flex-direction: row;
+}
+
+.img__header1 {
+    padding-top: 18px;
+    padding-bottom: 19px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 41px;
+}
+
+.img__header2 {
+    padding-top: 26px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+
+.top__info {
+    background: #F1E4E6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 63px;
+}
+
+.block__text {
+    width: 405px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.title {
+    font-size: 32px;
+    font-size: 48px;
+    line-height: 58px;
+    font-style: normal;
+    font-weight: 900;
+    color: #222;
+}
+
+.title__newline {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.title__newline__pink {
+    color: #F16D7F;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.top__content {
+    padding-top: 65px;
+    padding-bottom: 96px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+}
+
+.item {
+    padding-top: 105px;
+    padding-bottom: 105px;
+    display: grid;
+    justify-items: center;
+    white-space: pre-line;
+}
+
+.item1 {
+    background-image: url(../img/bg-woman.jpg);
+}
+
+.item2 {
+    background-image: url(../img/bg-man.jpg);
+}
+
+.item3 {
+    background-image: url(../img/bg-child.jpg);
+}
+
+.item__big {
+    background-image: url(../img/bc-big-clothes.jpg);
+    padding-top: 65px;
+    padding-bottom: 65px;
+    grid-column: span 3;
+    display: grid;
+    justify-items: center;
+}
+
+.subtitle {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 29px;
+    font-style: normal;
+    color: #FFF;
+}
+
+.subtitle__pink {
+    font-size: 24px;
+    color: #F16D7F;
+    text-align: center;
+    line-height: 29px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.content__textblock {
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.content__heading {
+    font-size: 30px;
+    line-height: 36px;
+    font-style: normal;
+    font-weight: 400;
+    color: #222;
+}
+
+.text__content {
+    padding-top: 6px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #5D5D5D;
+    font-style: normal;
+}
+
+.items__block {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+}
+
+.item__content {
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__content__text {
+    padding-top: 24px;
+    padding-bottom: 20px;
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.heading__content {
+    font-size: 13px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+}
+
+.text__content {
+    padding-top: 13px;
+    padding-bottom: 18px;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 300;
+    color: #5D5D5D;
+}
+
+.text__price {
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: 400;
+    color: #F16D7F;
+}
+
+.button__content {
+    margin-top: 48px;
+    margin-bottom: 60px;
+    padding: 15px 39px 14px 39px;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid #FF6A6A;
+    background-color: #fff;
+    color: #F26376;
+}
