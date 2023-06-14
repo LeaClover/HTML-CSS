@@ -68,7 +68,6 @@ a {
 }
 
 .title {
-    font-size: 32px;
     font-size: 48px;
     line-height: 58px;
     font-style: normal;
@@ -107,18 +106,22 @@ a {
 }
 
 .item1 {
+    background: rgba(33, 22, 22, 0.7);
     background-image: url(../img/bg-woman.jpg);
 }
 
 .item2 {
+    background: rgba(33, 22, 22, 0.7);
     background-image: url(../img/bg-man.jpg);
 }
 
 .item3 {
+    background: rgba(33, 22, 22, 0.7);
     background-image: url(../img/bg-child.jpg);
 }
 
 .item__big {
+    background: rgba(33, 22, 22, 0.7);
     background-image: url(../img/bc-big-clothes.jpg);
     padding-top: 65px;
     padding-bottom: 65px;
@@ -131,7 +134,7 @@ a {
     font-size: 16px;
     text-align: center;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 19px;
     font-style: normal;
     color: #FFF;
 }
@@ -172,12 +175,12 @@ a {
     color: #222;
 }
 
-.text__content {
+.content__text {
     padding-top: 6px;
     font-size: 14px;
     line-height: 17px;
-    font-weight: 300;
-    color: #5D5D5D;
+    font-weight: 400;
+    color: #9F9F9F;
     font-style: normal;
 }
 
@@ -247,4 +250,94 @@ a {
     border: 1px solid #FF6A6A;
     background-color: #fff;
     color: #F26376;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .center {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);
+    }
+
+    .header {
+        gap: 424px;
+    }
+
+    .img__header1 {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    
+    .img__header2 {
+        padding-top: 19px;
+        padding-bottom: 18px;
+    }
+
+    .top__info {
+        gap: 39px;
+        width: 768px;
+    }
+
+    .top__info img {
+        width: 386px;
+    }
+
+    .block__text {
+        width: 311px;
+    }
+
+    .block__text img {
+        width: 12px;
+    }
+
+    .title {
+        font-size: 44px;
+        line-height: 53px;
+    }
+    
+    .title__newline {
+        font-size: 24px;
+    }
+    
+    .title__newline__pink {
+        font-size: 24px;
+    }
+
+    .top__content {
+        padding-bottom: 110px;
+        gap: 16px;
+        grid-template-columns: repeat(3, 232px);
+    }
+
+    .item {
+        padding-top: 58px;
+        padding-bottom: 58px;
+        background-size: 100%;
+    }
+
+    .item__big {
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+
+    .subtitle {
+        line-height: 19px;
+    }
+
+    .content__textblock {
+        padding-bottom: 73px;
+    }
+
+    .content__text {
+        padding-top: 3px;
+    }
+
+    .items__block {
+        gap: 16px;
+        grid-template-columns: repeat(2, 360px);
+    }
+
+    .button__content {
+        margin-top: 32px;
+        margin-bottom: 65px;
+    }
 }
