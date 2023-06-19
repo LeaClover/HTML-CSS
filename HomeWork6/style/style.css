@@ -67,6 +67,10 @@ a {
     gap: 16px;
 }
 
+.img__rectangle {
+    width: 12px;
+}
+
 .title {
     font-size: 48px;
     line-height: 58px;
@@ -260,6 +264,7 @@ a {
 
     .header {
         gap: 424px;
+        width: 768px;
     }
 
     .img__header1 {
@@ -275,18 +280,18 @@ a {
     .top__info {
         gap: 39px;
         width: 768px;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
 
-    .top__info img {
+    .main__photo {
         width: 386px;
     }
 
     .block__text {
         width: 311px;
-    }
-
-    .block__text img {
-        width: 12px;
     }
 
     .title {
@@ -319,10 +324,6 @@ a {
         padding-bottom: 33px;
     }
 
-    .subtitle {
-        line-height: 19px;
-    }
-
     .content__textblock {
         padding-bottom: 73px;
     }
@@ -339,5 +340,171 @@ a {
     .button__content {
         margin-top: 32px;
         margin-bottom: 65px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+
+    .center {
+        padding-left: calc(50% - 50vw);
+        padding-right: calc(50% - 50vw);
+    }
+
+    .header {
+        gap: 50%;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 767px;
+        min-height: 100%;
+    }
+
+    .contacts__link {
+        display: none;
+    }
+
+    .basket__link {
+        display: none;
+    }
+
+    .img__header2 {
+        padding-top: 1.56rem;
+        padding-bottom: 1.63rem;
+    }
+
+    .top__info {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 767px;
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__photo {
+        display: none;
+    }
+
+    .block__text {
+        max-width: 263px;
+        gap: 0.94rem;
+        padding-top: 9.25rem;
+        padding-bottom: 9.31rem;
+        align-items: flex-end;
+    }
+
+    .img__rectangle {
+        height: 3.81rem;
+        width: 0.75rem;
+    }
+
+    .title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    
+    .title__newline {
+        font-size: 20px;
+    }
+    
+    .title__newline__pink {
+        font-size: 20px;
+    }
+
+    .top__content {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+        max-width: 767px;
+        min-height: 100%;
+    }
+    
+    .item {
+        padding-top: 6.13rem;
+        padding-bottom: 6.19rem;
+        background-size: cover;
+        max-width: 343px;
+        width: 100%;
+        align-self: center;
+        margin: 0 auto;
+        min-height: 100%;
+        background-position: center;
+    }
+
+    .item__big {
+        padding-top: 1.88rem;
+        padding-bottom: 1.94rem;
+        grid-column: span 1; 
+    }
+
+    .content__textblock {
+        padding-bottom: 4.06rem;
+        width: 90%;
+        margin: 0 auto;
+        max-width: 336px;
+        min-height: 100%;
+    }
+
+    .content__heading {
+        font-size: 1.88rem;
+        line-height: 2.25rem;
+    }
+
+    .content__text {
+        padding-top: 0.19rem;
+        font-size: 0.88rem;
+        line-height: 1.06rem;
+    }
+
+    .items__block {
+        gap: 1rem;
+        grid-template-columns: repeat(1, 96vw);
+        width: 100%;
+        margin: 0 auto;
+        max-width: 767px;
+        min-height: 100%;
+        justify-items: center;
+    }
+
+    .item__content img {
+        width: 100%;
+    }
+
+    .item__content {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 359px;
+        min-height: 100%;
+    }
+
+    .block__content__text {
+        width: 83.73vw;
+        max-width: 314px;
+    }
+
+    .heading__content {
+        font-size: 0.81rem;
+        line-height: 1rem;
+    }
+
+    .text__content {
+        font-size: 0.88rem;
+        line-height: 1.06rem;
+    }
+
+    .text__price {
+        font-size: 1rem;
+        line-height: 1.19rem;
+    }
+
+    .button__content {
+        margin-top: 2.56rem;
+        margin-bottom: 6rem;
+        font-size: 1rem;
+        line-height: 1.19rem;
     }
 }
