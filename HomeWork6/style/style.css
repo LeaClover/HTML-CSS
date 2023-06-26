@@ -856,7 +856,6 @@ a {
 
     .header {
         gap: 55%;
-        max-width: 768px;
     }
 
     .img__header1 {
@@ -874,10 +873,9 @@ a {
 
     .top__info {
         gap: 39px;
-        max-width: 768px;
         position: relative;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
     }
 
